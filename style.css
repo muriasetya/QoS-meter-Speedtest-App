@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'mount-muria';
+    src: url('Alkatra/Alkatra.ttf');
+}
+
+html,
+body,
+.intro {
+  background-image: url('deer.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 10vh;
+  margin: 0;
+  padding: 0;
+}
+
+.hasil-pengujian {
+    font-family: 'mount-muria', sans-serif;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+.centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card {
+  border-radius: .5rem;
+}
